@@ -1,6 +1,6 @@
 {
   "name": "node-traceur",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mirror of experimental ES6 to ES5 compiler that is kept in sync with code on google.",
   "keywords": [
     "javascript",
