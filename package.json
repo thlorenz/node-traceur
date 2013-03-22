@@ -1,5 +1,5 @@
 {
-  "name": "traceur-compiler",
+  "name": "node-traceur",
   "version": "0.0.0",
   "description": "Mirror of experimental ES6 to ES5 compiler that is kept in sync with code on google.",
   "keywords": [
@@ -29,7 +29,7 @@
   "bugs": "http://code.google.com/p/traceur-compiler/issues/list",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/traceur-compiler.git"
+    "url": "git://github.com/thlorenz/node-traceur.git"
   },
   "dependencies": {
     "commander": ">=1.1"
