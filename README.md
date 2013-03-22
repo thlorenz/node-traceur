@@ -9,6 +9,10 @@ It was slightly adapted to include only the files necessary to consume it from a
 
 Please find the original readme [here](https://github.com/thlorenz/traceur-compiler/blob/master/GOOGLE_README).
 
+## Installation
+
+    npm install traceur-compiler
+
 ## API
 
 As part of the adaptation the entire API is exposed properly so things like
@@ -17,3 +21,9 @@ As part of the adaptation the entire API is exposed properly so things like
 Please consult the [index file](https://github.com/thlorenz/traceur-compiler/blob/master/index.js) to see what is exposed from where.
 
 **Note:** I welcome additions from anyone (especially the Chromium authors) that add more API documentation here.
+
+## TODO
+
+Use [source-map](https://npmjs.org/package/source-map) npm module instead of including it in [third_party](https://github.com/thlorenz/traceur-compiler/tree/master/third_party)
+
+That however requires fixing all references to it in the code and at this point I didn't want to take that on.
