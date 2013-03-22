@@ -17,3 +17,5 @@ src/outputgeneration/SourceMapIntegration.js
 test/errsfile.json
 test/bench/esprima
 test/test-list.js
+
+node_modules
