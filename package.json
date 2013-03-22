@@ -1,7 +1,7 @@
 {
   "name": "traceur",
-  "version": "0.0.2",
-  "description": "Experimental ES6 to ES5 compiler",
+  "version": "0.1.0",
+  "description": "Mirror of experimental ES6 to ES5 compiler that is kept in sync with code on google.",
   "keywords": [
     "javascript",
     "ecmascript",
@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=0.8"
   },
-  "main": "./src/node/traceur.js",
+  "main": "./index.js",
   "bin": {
     "traceur": "./traceur"
   },
@@ -29,7 +29,7 @@
   "bugs": "http://code.google.com/p/traceur-compiler/issues/list",
   "repository": {
     "type": "git",
-    "url": "https://code.google.com/p/traceur-compiler/"
+    "url": "git://github.com/thlorenz/traceur-compiler.git"
   },
   "dependencies": {
     "commander": ">=1.1"
