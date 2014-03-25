@@ -1,5 +1,11 @@
 # node-traceur
 
+### DEPRECATED
+
+Please use the official [traceur](https://www.npmjs.org/package/traceur) package and refer to this [github repo](https://github.com/google/traceur-compiler)
+
+* * *
+
 This is a mirror of the traceur compiler hosted on code.google.
 
 For more information about Traceur Compiler, visit:
@@ -11,7 +17,11 @@ Please find the original readme [here](https://github.com/thlorenz/node-traceur/
 
 ## Installation
 
-    npm install node-traceur
+~~npm install node-traceur~~
+
+Use official traceur instead: 
+
+      npm install traceur
 
 ## API
 
